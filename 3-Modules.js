@@ -17,3 +17,6 @@ console.log(data);
 sayHi("Gi");
 // sayHi(names.xico);
 // sayHi(names.costa);
+
+//Self invoc
+require('./3.4-AutoInvoc');
