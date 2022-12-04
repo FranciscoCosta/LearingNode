@@ -10,9 +10,10 @@
 // }
 
 const names = require('./3.1-FirstModule');
-const sayHi = require('./3.2-SecondModule')
+const sayHi = require('./3.2-SecondModule');
+const data = require('./3.3-AlternativeExport');
 
-
+console.log(data);
 sayHi("Gi");
 // sayHi(names.xico);
 // sayHi(names.costa);
