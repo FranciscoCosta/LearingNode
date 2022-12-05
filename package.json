@@ -1,0 +1,17 @@
+{
+  "name": "nodetutorial",
+  "version": "1.0.0",
+  "description": "node tutorial",
+  "main": "1-Intro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Francisco Costa",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
