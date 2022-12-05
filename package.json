@@ -4,7 +4,8 @@
   "description": "node tutorial",
   "main": "1-Intro.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node 1-Intro.js",
+    "dev": "nodemon 2-Globals.js"
   },
   "keywords": [
     "node"
@@ -12,6 +13,7 @@
   "author": "Francisco Costa",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.20"
   }
 }
